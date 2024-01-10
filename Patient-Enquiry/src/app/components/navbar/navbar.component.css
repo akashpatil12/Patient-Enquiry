@@ -1,0 +1,44 @@
+.collapse{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navbar,navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+   text-align: center;
+   
+}
+.navbar{
+background-color: lightsteelblue;
+}
+a,button{
+    color: white;
+    font-size: 21px;
+    font-family:Poppins, sans-serif; 
+    font-weight:500
+}
+.navbar-toggler{
+    color: black;
+}
+.btn-outline-success{
+    width: 15rem;
+    height:3rem;
+    background-color: #E50000;
+    color: white;
+}
+.dropdown-item{
+    color: black;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+   
+  }
+  .dropdown-item{
+    font-size: 15px;
+  }
